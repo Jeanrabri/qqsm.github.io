@@ -1,0 +1,14 @@
+function aleatorio(num_min, num_max){
+    while(true){
+        var volver = false 
+        var numero = Math.floor(Math.random()*((nmu_max+1)-num_min)+num_min)
+
+        for (var 1 =0; i<arr_aux.lenght; i++){
+            if(arr_aux[i] == numero){volver = true; break}
+        }
+        if(!volver) arr_aux.push(numero)
+          else continue
+          return numero
+    }
+
+}

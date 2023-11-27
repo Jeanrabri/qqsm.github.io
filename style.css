@@ -1,0 +1,171 @@
+html {
+   box-sizing: border-box;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+
+body{
+   margin: 0;
+   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+section{
+  
+	width: auto;
+   height: 100px;
+  
+}
+
+.img-5050{
+   width: 10%;
+   height: auto;
+   margin-top: 40px;
+   margin-left: 10%;
+   margin-right: 5px;
+   border-radius: 30%;
+   float: left;
+  
+}
+
+.img-audiencia{
+   width: 10%;
+   height: auto;
+   margin-top: 40px;
+   margin-right: 4px;
+   border-radius: 30%;
+   float: left;
+   
+}
+
+.img-llamar{
+   width: 10%;
+   height: auto;
+   margin-top: 40px;
+   margin-right: 4px;
+   border-radius: 30%;
+   float: left;
+ 
+}
+
+.img-exit{
+   width: 50px;
+   height:50px;
+   margin-top: 10px;
+   margin-right: 10px;
+   border-radius: 30%;
+   float: right;
+   
+}
+.img-graficas{
+   width: 400px;
+   height:400px;
+   margin-left: 30%;
+   margin-right: 100px;
+   border-radius: 30%;
+   float: center;
+   display:none;
+  
+}
+
+
+.boxy{
+  
+	width: 100%;
+   height: 100%;
+   margin-top:5px;
+   
+	
+}
+
+.img-responsive{
+	width: 20%;
+   height: auto;
+   margin-top: 60px;
+   margin-left:16% ;
+   margin-right: 20%;
+   border-radius: 50%;
+   float:left;
+   text-align: center;
+}
+
+#cajita{
+
+   width: 16%;
+   height: 350px;
+   float: left;
+   margin-top:10px;
+   margin-right: 10px;
+   margin-left:80px;
+   margin-bottom: 5px;
+   border: 1px solid white;
+   color: white;
+   text-align: center;
+   font-size: 18px;
+
+
+}
+
+
+
+#pregunta{
+
+   width: 90%;
+   height: 60px;
+   margin-top: 20px;
+   margin-left: 5%;
+   margin-bottom: 5px;
+   padding-top: 10px;
+   float: left;
+   border: 3px solid white;
+   border-radius: 50px;
+   color: white;
+   text-align: center;
+   font-size: 28px;
+
+}
+.box{
+
+   width: 90%;
+   height: 168px;
+   margin-top: 5px;
+   margin-left: 5%;
+   margin-bottom: 5px;
+   padding-top: 10px;
+   float: left;
+   border-radius: 50px;
+  
+}
+
+
+.opcion_div{
+ 
+   width: 40%;
+   height: 60px;
+   margin-top: 10px;
+   margin-left: 7%; /*estaba en 64*/
+   float: left;
+   border: 3px solid white;
+   border-radius: 50px;
+   color: white;
+   text-align: center;
+   font-size: 28px;
+}
+H1{
+   margin-top: 5px;
+  color: white;
+   text-align: left;
+   font-size: 28px; 
+}
+
+
+.opcion{
+   position: relative;
+   margin-top: 5px;
+}
+.opcion_div:hover{
+   cursor: pointer;
+   border: 4px solid white;
+   
+}
+
